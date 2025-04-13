@@ -1,0 +1,10 @@
+11:07:14 **** Build of configuration Debug for project hello_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 59739 C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm standalone_ps7_cortexa9_0 C:/Users/User1/workspace/hello_system/Debug/system.bif
+sdcard_gen --xpfm C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm --sys_config design_1_wrapper --bif C:/Users/User1/workspace/hello_system/Debug/system.bif --bitstream C:/Users/User1/workspace/hello/_ide/bitstream/design_1_wrapper.bit --elf C:/Users/User1/workspace/hello/Debug/hello.elf,ps7_cortexa9_0
+creating BOOT.BIN using C:/Users/User1/workspace/hello/_ide/bitstream/design_1_wrapper.bit
+Running C:/Xilinx/Vitis/2023.1/bin/bootgen  -image C:/Users/User1/workspace/hello_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN
+
+11:07:22 Build Finished (took 7s.928ms)
+

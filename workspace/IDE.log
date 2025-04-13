@@ -1,0 +1,264 @@
+11:02:01 DEBUG : Logs will be stored at 'C:/Users/User1/workspace/IDE.log'.
+11:02:16 INFO  : Registering command handlers for Vitis TCF services
+11:02:16 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\User1\workspace\temp_xsdb_launch_script.tcl
+11:02:19 INFO  : Platform repository initialization has completed.
+11:02:20 INFO  : XSCT server has started successfully.
+11:02:23 INFO  : plnx-install-location is set to ''
+11:02:23 INFO  : Successfully done setting XSCT server connection channel  
+11:02:23 INFO  : Successfully done query RDI_DATADIR 
+11:02:23 INFO  : Successfully done setting workspace for the tool. 
+11:04:44 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:04:44 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:04:46 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:04:48 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+11:04:58 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+11:07:09 INFO  : Result from executing command 'getProjects': design_1_wrapper
+11:07:10 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:07:12 INFO  : Checking for BSP changes to sync application flags for project 'hello'...
+11:08:23 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+11:09:23 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+11:09:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:09:27 INFO  : Jtag cable 'Digilent JTAG-HS1 210205329746A' is selected.
+11:09:27 INFO  : 'jtag frequency' command is executed.
+11:09:29 INFO  : Context for 'APU' is selected.
+11:09:29 INFO  : System reset is completed.
+11:09:32 INFO  : 'after 3000' command is executed.
+11:09:33 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210205329746A" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210205329746A-13722093-0"}' command is executed.
+11:09:36 INFO  : Device configured successfully with "C:/Users/User1/workspace/hello/_ide/bitstream/design_1_wrapper.bit"
+11:09:36 INFO  : Context for 'APU' is selected.
+11:09:36 INFO  : Hardware design and registers information is loaded from 'C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:09:36 INFO  : 'configparams force-mem-access 1' command is executed.
+11:09:36 INFO  : Context for 'APU' is selected.
+11:09:36 INFO  : Sourcing of 'C:/Users/User1/workspace/hello/_ide/psinit/ps7_init.tcl' is done.
+11:09:36 INFO  : 'ps7_init' command is executed.
+11:09:36 INFO  : 'ps7_post_config' command is executed.
+11:09:36 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:09:37 ERROR : Cannot halt processor core, timeout
+11:09:37 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210205329746A" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210205329746A-13722093-0"}
+fpga -file C:/Users/User1/workspace/hello/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/User1/workspace/hello/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/User1/workspace/hello/Debug/hello.elf
+----------------End of Script----------------
+
+11:09:37 ERROR : Cannot halt processor core, timeout
+11:10:24 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+
+11:10:24 ERROR : (XRT Server)      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+11:11:24 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+11:11:24 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:11:24 INFO  : Jtag cable 'Digilent JTAG-HS1 210205329746A' is selected.
+11:11:24 INFO  : 'jtag frequency' command is executed.
+11:11:25 INFO  : Context for 'APU' is selected.
+11:11:25 INFO  : System reset is completed.
+11:11:28 INFO  : 'after 3000' command is executed.
+11:11:28 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210205329746A" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210205329746A-13722093-0"}' command is executed.
+11:11:30 INFO  : Device configured successfully with "C:/Users/User1/workspace/hello/_ide/bitstream/design_1_wrapper.bit"
+11:11:30 INFO  : Context for 'APU' is selected.
+11:11:30 INFO  : Hardware design and registers information is loaded from 'C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa'.
+11:11:30 INFO  : 'configparams force-mem-access 1' command is executed.
+11:11:30 INFO  : Context for 'APU' is selected.
+11:11:30 INFO  : Sourcing of 'C:/Users/User1/workspace/hello/_ide/psinit/ps7_init.tcl' is done.
+11:11:30 INFO  : 'ps7_init' command is executed.
+11:11:30 INFO  : 'ps7_post_config' command is executed.
+11:11:30 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+11:11:32 ERROR : Memory write error at 0x100000. APB AP transaction error, DAP status 0xF0000021
+11:11:32 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent JTAG-HS1 210205329746A" && level==0 && jtag_device_ctx=="jsn-JTAG-HS1-210205329746A-13722093-0"}
+fpga -file C:/Users/User1/workspace/hello/_ide/bitstream/design_1_wrapper.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/hw/design_1_wrapper.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source C:/Users/User1/workspace/hello/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow C:/Users/User1/workspace/hello/Debug/hello.elf
+----------------End of Script----------------
+
+11:11:32 ERROR : Memory write error at 0x100000. APB AP transaction error, DAP status 0xF0000021
+11:12:54 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+11:13:53 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+11:13:53 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:13:53 INFO  : Jtag cable 'Digilent JTAG-HS1 210205329746A' is selected.
+11:13:53 INFO  : 'jtag frequency' command is executed.
+11:13:57 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  DAP (APB AP transaction error, DAP status 0x30000021)
+  4  xc7z010
+11:13:57 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+11:13:57 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  DAP (APB AP transaction error, DAP status 0x30000021)
+  4  xc7z010
+11:32:19 ERROR : (XRT Server)C:/Xilinx/Vitis/2023.1/bin/unwrapped/win64.o/xrt_server.exe: error: illegal option '-'
+Usage: agent [OPTION]...
+Start Target Communication Framework agent.
+  -d               run in daemon mode (output is sent to system logger)
+  -i               run in interactive mode
+  -L<file>         enable logging, use -L- to send log to stderr
+  -l<level>        set log level, the level is comma separated list of:
+      alloc        memory allocation and deallocation (0x1)
+      eventcore    main event queue (0x2)
+      waitpid      waitpid() events (0x4)
+      events       low-level debugger events (0x8)
+      protocol     communication protocol (0x20)
+      context      debug context actions (0x40)
+      children     debug context children (0x10)
+      discovery    discovery (0x80)
+      asyncreq     async I/O (0x100)
+      proxy        proxy state (0x200)
+      tcflog       proxy traffic (0x400)
+      elf          ELF reader (0x800)
+      stack        stack trace service (0x2000)
+      plugin       plugins (0x4000)
+      shutdown     shutdown of subsystems (0x8000)
+      disasm       disassembly service (0x10000)
+  -s<url>          set agent listening port and protocol, default is tcp::0
+  -S               print server properties in Json format to stdout
+  -g<port>         start GDB Remote Serial Protocol server at the specified TCP port
+  -I<idle-seconds> exit if there are no connections for the specified time
+
+11:33:18 ERROR : Timed out. 60 seconds have elapsed while waiting for the XRT server to launch.
+11:33:18 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+11:33:19 INFO  : Jtag cable 'Digilent JTAG-HS1 210205329746A' is selected.
+11:33:19 INFO  : 'jtag frequency' command is executed.
+11:33:22 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  DAP (APB AP transaction error, DAP status 0x30000021)
+  4  xc7z010
+11:33:22 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+----------------End of Script----------------
+
+11:33:22 ERROR : no targets found with "name =~"APU*"". available targets:
+  1  DAP (APB AP transaction error, DAP status 0x30000021)
+  4  xc7z010
+18:44:01 DEBUG : Logs will be stored at 'C:/Users/User1/workspace/IDE.log'.
+18:44:02 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\User1\workspace\temp_xsdb_launch_script.tcl
+18:44:06 INFO  : XSCT server has started successfully.
+18:44:06 INFO  : Successfully done setting XSCT server connection channel  
+18:44:06 INFO  : plnx-install-location is set to ''
+18:44:06 INFO  : Successfully done setting workspace for the tool. 
+18:44:07 INFO  : Platform repository initialization has completed.
+18:44:37 INFO  : Registering command handlers for Vitis TCF services
+18:44:39 INFO  : Successfully done query RDI_DATADIR 
+18:52:15 INFO  : Result from executing command 'getProjects': design_1_wrapper;design_1_wrapper_1
+18:52:15 INFO  : Result from executing command 'getPlatforms': design_1_wrapper|C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/design_1_wrapper.xpfm;xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+18:52:17 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:52:19 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+18:52:32 INFO  : Platform 'design_1_wrapper_1' is added to custom repositories.
+18:53:24 ERROR : An unexpected exception occurred in the module 'reading platform'
+18:54:15 ERROR : An unexpected exception occurred in the module 'reading platform'
+18:56:35 DEBUG : Logs will be stored at 'C:/Users/User1/workspace/IDE.log'.
+18:56:40 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\Users\User1\workspace\temp_xsdb_launch_script.tcl
+18:56:42 INFO  : Registering command handlers for Vitis TCF services
+18:56:43 INFO  : XSCT server has started successfully.
+18:56:43 INFO  : plnx-install-location is set to ''
+18:56:43 INFO  : Successfully done setting XSCT server connection channel  
+18:56:44 INFO  : Successfully done query RDI_DATADIR 
+18:56:44 INFO  : Successfully done setting workspace for the tool. 
+18:56:44 INFO  : Platform repository initialization has completed.
+18:58:04 INFO  : Result from executing command 'getProjects': design_1_wrapper
+18:58:04 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|C:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+18:58:06 WARN  : An unexpected exception occurred in the module 'platform project logging'
+18:58:09 INFO  : Platform 'design_1_wrapper' is added to custom repositories.
+18:58:22 INFO  : Platform 'design_1_wrapper' is added to custom repositories.

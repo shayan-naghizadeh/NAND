@@ -1,0 +1,1423 @@
+TRACE::2024-10-28.18:57:51::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:51::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:51::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:51::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:57:51::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:51::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:57:51::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-10-28.18:57:54::SCWPlatform::Opened new HwDB with name design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	""
+}
+TRACE::2024-10-28.18:57:54::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper"
+		}]
+}
+TRACE::2024-10-28.18:57:54::SCWPlatform::Boot application domains not present, creating them
+TRACE::2024-10-28.18:57:54::SCWDomain::checking for install qemu data   : 
+TRACE::2024-10-28.18:57:54::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-10-28.18:57:54::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:57:54::SCWPlatform::Boot application domain added for zynq_fsbl
+TRACE::2024-10-28.18:57:54::SCWPlatform::Generating the sources  .
+TRACE::2024-10-28.18:57:54::SCWBDomain::Generating boot domain sources.
+TRACE::2024-10-28.18:57:54::SCWBDomain:: Generating the zynq_fsbl Application.
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:57:54::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:57:54::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:57:54::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:57:54::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-10-28.18:57:54::SCWMssOS::No sw design opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:57:54::SCWMssOS::mss does not exists at C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:57:54::SCWMssOS::Creating sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:57:54::SCWMssOS::Adding the swdes entry, created swdb C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:57:54::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:57:54::SCWMssOS::Writing mss at C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:57:54::SCWMssOS::Completed writing the mss file at C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-10-28.18:57:54::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-10-28.18:57:54::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-10-28.18:57:54::SCWBDomain::Completed writing the mss file at C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp
+TRACE::2024-10-28.18:58:02::SCWPlatform::Generating sources Done.
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:02::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-10-28.18:58:02::SCWMssOS::No sw design opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::mss exists loading the mss file  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::Opened the sw design from mss  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::Adding the swdes entry C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-10-28.18:58:02::SCWMssOS::updating the scw layer about changes
+TRACE::2024-10-28.18:58:02::SCWMssOS::Opened the sw design.  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:02::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:02::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:02::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:02::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:02::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:02::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:02::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1430204eb77323fc400a35e1de1885e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-10-28.18:58:02::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:02::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:02::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:02::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:02::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:02::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:02::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:02::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:02::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:02::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"zynq_fsbl",
+			"sysDefaultDom":	"",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1430204eb77323fc400a35e1de1885e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:03::SCWDomain::checking for install qemu data   : 
+TRACE::2024-10-28.18:58:03::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-10-28.18:58:03::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2023.1/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:03::SCWDomain::Qemu Directory name is changed from "" to "qemu"
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:03::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:03::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:03::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:03::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:03::SCWMssOS::No sw design opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:03::SCWMssOS::mss does not exists at C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:03::SCWMssOS::Creating sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:03::SCWMssOS::Adding the swdes entry, created swdb C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:03::SCWMssOS::updating the scw layer changes to swdes at   C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:03::SCWMssOS::Writing mss at C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:03::SCWMssOS::Completed writing the mss file at C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-10-28.18:58:03::SCWMssOS::Picking up changes from newly written mss file into SCW Layer. 
+TRACE::2024-10-28.18:58:03::SCWMssOS::Updated the changes from newly written mss file into SCW Layer. 
+TRACE::2024-10-28.18:58:03::SCWMssOS::Completed writing the mss file at C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-10-28.18:58:03::SCWMssOS::Forcing BSP Sources regeneration.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss with des name system_0
+TRACE::2024-10-28.18:58:04::SCWMssOS::Writing the mss file completed C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1430204eb77323fc400a35e1de1885e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"4aac0a83edb4b41da2766b533b66fe03",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-10-28.18:58:04::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-10-28.18:58:04::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-28.18:58:04::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-10-28.18:58:04::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-10-28.18:58:04::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-10-28.18:58:04::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-10-28.18:58:04::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-10-28.18:58:04::SCWSystem::Checking the domain standalone_ps7_cortexa9_0
+LOG::2024-10-28.18:58:04::SCWSystem::Not a boot domain 
+LOG::2024-10-28.18:58:04::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2024-10-28.18:58:04::SCWDomain::Generating domain artifcats
+TRACE::2024-10-28.18:58:04::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-28.18:58:04::SCWMssOS::Copying the qemu file from  C:/Users/User1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2024-10-28.18:58:04::SCWMssOS::Copying the qemu file from  C:/Users/User1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2024-10-28.18:58:04::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::Completed writing the mss file at C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-10-28.18:58:04::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-28.18:58:04::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-28.18:58:04::SCWDomain::Skipping the build for domain :  standalone_ps7_cortexa9_0
+TRACE::2024-10-28.18:58:04::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-10-28.18:58:04::SCWMssOS::Copying to export directory.
+TRACE::2024-10-28.18:58:04::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-10-28.18:58:04::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-10-28.18:58:04::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-10-28.18:58:04::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2024-10-28.18:58:04::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2024-10-28.18:58:04::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2024-10-28.18:58:04::SCWPlatform::Started preparing the platform 
+TRACE::2024-10-28.18:58:04::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2024-10-28.18:58:04::SCWSystem::dir created 
+TRACE::2024-10-28.18:58:04::SCWSystem::Writing the bif 
+TRACE::2024-10-28.18:58:04::SCWPlatform::Started writing the spfm file 
+TRACE::2024-10-28.18:58:04::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-10-28.18:58:04::SCWPlatform::Completed generating the platform
+TRACE::2024-10-28.18:58:04::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:04::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:04::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:04::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:04::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:04::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1430204eb77323fc400a35e1de1885e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"4aac0a83edb4b41da2766b533b66fe03",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-10-28.18:58:04::SCWPlatform::updated the xpfm file.
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1430204eb77323fc400a35e1de1885e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"4aac0a83edb4b41da2766b533b66fe03",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1430204eb77323fc400a35e1de1885e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"4aac0a83edb4b41da2766b533b66fe03",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-10-28.18:58:06::SCWPlatform::Started generating the artifacts platform design_1_wrapper
+TRACE::2024-10-28.18:58:06::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-10-28.18:58:06::SCWPlatform::Started generating the artifacts for system configuration design_1_wrapper
+LOG::2024-10-28.18:58:06::SCWSystem::Started Processing the domain standalone_ps7_cortexa9_0
+TRACE::2024-10-28.18:58:06::SCWDomain::Generating domain artifcats
+TRACE::2024-10-28.18:58:06::SCWMssOS::Generating standalone artifcats
+TRACE::2024-10-28.18:58:06::SCWMssOS::Copying the qemu file from  C:/Users/User1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/qemu/
+TRACE::2024-10-28.18:58:06::SCWMssOS::Copying the qemu file from  C:/Users/User1/workspace/design_1_wrapper/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt To C:/Users/User1/workspace/design_1_wrapper/export/design_1_wrapper/sw/design_1_wrapper/standalone_ps7_cortexa9_0/qemu/
+TRACE::2024-10-28.18:58:06::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Completed writing the mss file at C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp
+TRACE::2024-10-28.18:58:06::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-10-28.18:58:06::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-10-28.18:58:06::SCWDomain::Building the domain as part of full build :  standalone_ps7_cortexa9_0
+TRACE::2024-10-28.18:58:06::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-10-28.18:58:06::SCWMssOS::Copying to export directory.
+TRACE::2024-10-28.18:58:06::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-10-28.18:58:06::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+TRACE::2024-10-28.18:58:06::SCWMssOS:: Completed Standalone Artifacts creation 
+LOG::2024-10-28.18:58:06::SCWSystem::Completed Processing the domain standalone_ps7_cortexa9_0
+LOG::2024-10-28.18:58:06::SCWSystem::Completed Processing the sysconfig design_1_wrapper
+LOG::2024-10-28.18:58:06::SCWPlatform::Completed generating the artifacts for system configuration design_1_wrapper
+TRACE::2024-10-28.18:58:06::SCWPlatform::Started preparing the platform 
+TRACE::2024-10-28.18:58:06::SCWSystem::Writing the bif file for system config design_1_wrapper
+TRACE::2024-10-28.18:58:06::SCWSystem::dir created 
+TRACE::2024-10-28.18:58:06::SCWSystem::Writing the bif 
+TRACE::2024-10-28.18:58:06::SCWPlatform::Started writing the spfm file 
+TRACE::2024-10-28.18:58:06::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-10-28.18:58:06::SCWPlatform::Completed generating the platform
+TRACE::2024-10-28.18:58:06::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Saving the mss changes C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-10-28.18:58:06::SCWMssOS::Commit changes completed.
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to open the hw design at C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA given C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA absoulate path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform::DSA directory C:/Users/User1/workspace/design_1_wrapper/hw
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Platform Path C:/Users/User1/workspace/design_1_wrapper/hw/design_1_wrapper.xsa
+TRACE::2024-10-28.18:58:06::SCWPlatform:: Unique name xilinx:arty-z7-10::0.0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Opened existing hwdb design_1_wrapper_0
+TRACE::2024-10-28.18:58:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-10-28.18:58:06::SCWMssOS::Checking the sw design at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWMssOS::DEBUG:  swdes dump  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss|system_0||
+C:/Users/User1/workspace/design_1_wrapper/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-10-28.18:58:06::SCWMssOS::Sw design exists and opened at  C:/Users/User1/workspace/design_1_wrapper/ps7_cortexa9_0/standalone_ps7_cortexa9_0/bsp/system.mss
+TRACE::2024-10-28.18:58:06::SCWWriter::formatted JSON is {
+	"platformName":	"design_1_wrapper",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"design_1_wrapper",
+	"platHandOff":	"C:/Users/User1/pl_t_ps/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"platFsblTarget":	"ps7_cortexa9_0",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"design_1_wrapper",
+	"systems":	[{
+			"systemName":	"design_1_wrapper",
+			"systemDesc":	"design_1_wrapper",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"design_1_wrapper",
+			"sysActiveDom":	"standalone_ps7_cortexa9_0",
+			"sysDefaultDom":	"standalone_ps7_cortexa9_0",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"b1430204eb77323fc400a35e1de1885e",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:5.0", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_ps7_cortexa9_0",
+					"domainDispName":	"standalone_ps7_cortexa9_0",
+					"domainDesc":	"standalone_ps7_cortexa9_0",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu_args.txt",
+					"qemuData":	"<platformDir>/resources/design_1_wrapper/standalone_ps7_cortexa9_0/qemu",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"8.1",
+					"mssFile":	"",
+					"md5Digest":	"4aac0a83edb4b41da2766b533b66fe03",
+					"compatibleApp":	"hello_world",
+					"domType":	"mssDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-10-28.18:58:06::SCWPlatform::updated the xpfm file.

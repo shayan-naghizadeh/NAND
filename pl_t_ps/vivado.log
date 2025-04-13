@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Mon Oct 28 20:21:40 2024
+# Process ID: 9496
+# Current directory: C:/Users/User1/pl_t_ps
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5168 C:\Users\User1\pl_t_ps\pl_t_ps.xpr
+# Log file: C:/Users/User1/pl_t_ps/vivado.log
+# Journal file: C:/Users/User1/pl_t_ps\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Oct 28 20:22:14 2024...
