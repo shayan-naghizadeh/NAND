@@ -46,7 +46,13 @@ Upon successful implementation:
 
 ## Author
 
+<<<<<<< HEAD
 Shayan Nagizadeh 
 Amirkabir University of Technology  
 Course: Reconfigurable System Architecture  
+=======
+Shayan Nagizadeh — Student   
+Amirkabir University of Technology  
+Course: Reconfigurable System Systems  
+>>>>>>> 993ed91f45fb16a99b5b18ef9abb9f26ebc750ed
 Instructor: Dr. Sahebzamani
