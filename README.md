@@ -14,6 +14,8 @@ This demonstrates a mixed hardware/software co-design approach where:
 - The PL handles low-level parallel logic.
 - The PS performs additional processing using C-code via Vitis.
 
+![alt text](image.png)
+
 ## Tools & Hardware
 
 - **FPGA Board**: Arty Z7-10 (ZYNQ7000 XC7Z007S)
