@@ -50,5 +50,5 @@ Upon successful implementation:
 
 Shayan Nagizadeh 
 Amirkabir University of Technology  
-Course: Reconfigurable System Systems  
+Course: Reconfigurable Computing Systems  
 Instructor: Dr. Sahebzamani
